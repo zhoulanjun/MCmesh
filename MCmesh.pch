@@ -1,0 +1,129 @@
+//
+//  MCmesh.pch
+//  MCmesh
+//
+//  Created by zhoulanjun on 16/5/13.
+//  Copyright © 2016年 ZhouLanjun. All rights reserved.
+//
+
+#ifndef MCmesh_pch
+#define MCmesh_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "singleMacros.h"
+#import "User.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+Add.h"
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "BaseViewController.h"
+//适配框架Mansory
+#import "Masonry.h"
+
+//检测网络状况
+#import "Reachability.h"//通知
+#define kNotificationNetstatus    @"kNotificationNetstatus"
+
+
+//Mansory的block里面用的
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+
+#define FAMILIE @"0001"
+#define PWD  @"123456"
+#define CC_MD5_DIGEST_LENGTH    16          /* digest length in bytes */
+//  192.168.139.213  139.214   142.104
+#define EMAIL @"lanjun@163.com"
+#define ROOT_IP @"192.168.139.214"
+#define ROOT_URL @"http://"ROOT_IP@":8082/sklcloud"
+
+
+#define VIEWWIDTH self.view.frame.size.width
+
+#define VIEWHEIGHT self.view.frame.size.height
+
+
+#define FILEPATH [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]stringByAppendingPathComponent:@"ipcSnIvKey.plist"]
+
+//获取所有设备列表
+#define  HTTP_GET_ALL_MEMBER_INFO_URL   @"/skl-cloud/app/queryRelatedDevices"
+//心跳
+#define HEART_BEAT_URL @"/skl-cloud/app/Security/AAA/users/heartBeat"
+//登录
+#define SIGNURL @"/skl-cloud/app/Security/AAA/users/userId"
+
+//IPC注册
+#define IPCREGISTER @"/skl-cloud/app/Security/AAA/users/deviceRegist"
+
+//是否连上云端
+#define ISLIVEDEVICE @"/isLiveDevice"
+
+//是否被其他人关联
+#define OWNEDBYOTHER @"/ownedByOther"
+
+//关联IPC设备
+#define DEVICELINK @"/skl-cloud/app/Security/AAA/users/deviceLink"
+
+#define UNLINKDEVICE @"/skl-cloud/app/Security/AAA/users/deviceLink/remove"
+
+//APP Device
+#define APPDEVICE @"/skl-cloud/app/device/"
+
+//创建MESH网络
+#define CREATEMESH @"mesh/create"
+
+//删除MESH网络( 前面拼接SN )
+#define DELETEMESH @"/mesh/remove"
+
+//请求获取Mesh信息
+#define REQMESHINFO @"/mesh/meshInfo"
+
+//请求获取Mesh状态信息
+#define REQMESHSTATUSINFO @"/mesh/nodeStatus"
+
+//创建节点
+#define CREATENODE @"/mesh/group"
+
+#define OPERATENODE @"/skl-cloud/appremote/mesh/operate"
+
+//添加Mesh网络节点
+#define ADDMESHNODE @"mesh/node"
+
+typedef enum : NSUInteger {
+    SIGN_IN=0,         //登录
+    HEART_BEAT=1,      //心跳
+    ALL_MEMBER_INFO=2, //获取所有设备列表
+    CREATE_MESH=3,     //创建MESH网络
+    DELETE_MESH=4,     //删除MESH网络
+    IPCREG=5,          //IPC注册
+    ISLIVEDEV=6,       //查询设备是否在线
+    ADDNODE=7,         //添加Mesh网络节点
+    UNLINKDEV=8,       //解除关联设备
+    OPERNODE=9,        //对节点进行操作，开关灯
+} REQUEST_ID;
+
+
+typedef NS_ENUM(NSUInteger,PeripheralType){
+    SOCKET,
+    SENSOR,
+    CONCTROLLER,
+};
+
+
+// app背景浅灰色
+#define APPBACKCOLOR [UIColor colorWithRed:(215)/255.0 green:(213)/255.0 blue:(210)/255.0 alpha:1.0]
+
+// app按钮的通用颜色
+#define BTNBACKCOLOR [UIColor colorWithRed:(45)/255.0 green:(58)/255.0 blue:(142)/255.0 alpha:1.0]
+// app按钮的字体颜色
+#define BTNTXTCOLOR [UIColor colorWithRed:(246)/255.0 green:(246)/255.0 blue:(250)/255.0 alpha:1.0]
+
+// RGB颜色
+#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 随机色
+#define RandomColor RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+#endif /* MCmesh_pch */

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories
+END
+UIAlertView+MKNetworkKitAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.m
+END
+NSDate+RFC1123.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSDate+RFC1123.h
+END
+NSString+MKNetworkKitAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.h
+END
+UIImageView+MKNetworkKitAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/UIImageView+MKNetworkKitAdditions.h
+END
+NSDate+RFC1123.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSDate+RFC1123.m
+END
+NSString+MKNetworkKitAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSString+MKNetworkKitAdditions.m
+END
+NSDictionary+RequestEncoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSDictionary+RequestEncoding.h
+END
+NSData+MKBase64.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSData+MKBase64.h
+END
+UIAlertView+MKNetworkKitAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/UIAlertView+MKNetworkKitAdditions.h
+END
+UIImageView+MKNetworkKitAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/UIImageView+MKNetworkKitAdditions.m
+END
+NSDictionary+RequestEncoding.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSDictionary+RequestEncoding.m
+END
+NSData+MKBase64.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/familie_ios/!svn/ver/138/trunk/Familie0608/Familie/Vendors/MKNetworkKit/Categories/NSData+MKBase64.m
+END
